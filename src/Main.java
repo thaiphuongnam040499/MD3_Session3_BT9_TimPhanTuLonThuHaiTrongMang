@@ -10,8 +10,6 @@ public class Main {
             if (max < arr[i]) {
                 max1 = max;
                 max = arr[i];
-            } else if (max1<arr[i]) {
-                max1 =arr[i];
             }
         }
         System.out.println(max1);
